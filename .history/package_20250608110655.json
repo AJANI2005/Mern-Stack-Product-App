@@ -7,6 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_ENV=development npx nodemon backend/server.js",
+    "client": "vite",
     "start": "NODE_ENV=production node backend/server.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "clean": "rm -rf node_modules frontend/node_modules frontend/dist"
