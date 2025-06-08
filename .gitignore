@@ -1,6 +1,7 @@
 # Environment variables
 .env
 .env.*         # Optional: in case you have multiple like .env.production, etc.
+.history
 
 # Node
 node_modules/
